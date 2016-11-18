@@ -39,10 +39,13 @@ function persistMessage(message) {
 };
 
 // Other methods
+
+// Print error
 var printError = function (err) {
     console.log(err.message);
 };
 
+// Print message
 var printMessage = function (message) {
     console.log('Message received: ');
     console.log(JSON.stringify(message.body));

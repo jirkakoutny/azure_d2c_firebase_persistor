@@ -1,0 +1,5 @@
+{
+    "iotHubConnString": "HostName=jkiothub.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=ZqoaRMeNH6+gJdkv62A48M8NMkvf0lQ9CGxUevl6fzY=",
+    "firebaseApiKey": "AIzaSyB5EegdfZkuVB3d4nrZjc7-e5Xkz_a3Auw",
+    "firebaseDatabaseURL" : "https://jkiot-b21dd.firebaseio.com"
+} 

@@ -1,0 +1,16 @@
+{
+  "name": "azure_d2c_firebase_persistor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JirKa",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.4",
+    "firebase": "^3.6.1",
+    "nconf": "^0.8.4"
+  }
+}

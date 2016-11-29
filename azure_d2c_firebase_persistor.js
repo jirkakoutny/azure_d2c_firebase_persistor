@@ -34,8 +34,8 @@ iotHubClient.open()
     .catch(printError);
 
 function persistMessage(message) {
-    var deviceMessagesNode = firebase.database().ref('messages');
-    deviceMessagesNode.push(message);
+    // deviceMessagesNode.push(message);
+    deviceMessagesNode.set(message);
 };
 
 // Other methods
